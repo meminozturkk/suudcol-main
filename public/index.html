@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- owl -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl -->
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- owl -->
+
+    <script src="https://kit.fontawesome.com/bef04441f7.js"></script>
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- owl carousel -->
+    <!--   <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+
+    <script type="text/javascript">
+      $(window).on("load", function () {
+        $("#hero-slide").owlCarousel({
+          items: 1,
+          pagination: true,
+          dots: true,
+          loop: true,
+          autoplay: true,
+        });
+      });
+
+      $(window).on("load", function () {
+        $("#owl-gallery").owlCarousel({
+          items: 3,
+          pagination: true,
+          dots: false,
+          margin: 6,
+          nav: false,
+        });
+      });
+
+      $(window).on("load", function () {
+        $("#owl-others").owlCarousel({
+          items: 3,
+          pagination: false,
+          dots: false,
+
+          margin: 6,
+          loop: true,
+        });
+
+        var owl = $("#owl-others");
+
+        // Go to the next item
+        $(".customNextBtn").click(function () {
+          owl.trigger("next.owl.carousel");
+        });
+        // Go to the previous item
+        $(".customPrevBtn").click(function () {
+          // With optional speed parameter
+          // Parameters has to be in square bracket '[]'
+          owl.trigger("prev.owl.carousel", [300]);
+        });
+      });
+
+      $(window).on("load", function () {
+        $("#owl-lastviews").owlCarousel({
+          items: 3,
+          pagination: false,
+          dots: false,
+
+          margin: 6,
+          loop: true,
+        });
+        var owl = $("#owl-lastviews");
+
+        // Go to the next item
+        $(".lastNextBtn").click(function () {
+          owl.trigger("next.owl.carousel");
+        });
+        // Go to the previous item
+        $(".lastPrevBtn").click(function () {
+          // With optional speed parameter
+          // Parameters has to be in square bracket '[]'
+          owl.trigger("prev.owl.carousel", [300]);
+        });
+      });
+
+      $(window).on("load", function () {
+        $("#owl-rounds").owlCarousel({
+          items: 4,
+          pagination: false,
+          dots: false,
+
+          margin: 15,
+        });
+
+        var owl = $("#owl-rounds");
+
+        // Go to the next item
+        $(".roundNextBtn").click(function () {
+          owl.trigger("next.owl.carousel");
+        });
+        // Go to the previous item
+        $(".roundPrevBtn").click(function () {
+          // With optional speed parameter
+          // Parameters has to be in square bracket '[]'
+          owl.trigger("prev.owl.carousel", [300]);
+        });
+      });
+
+      $(window).on("load", function () {
+        $("#owl-woman").owlCarousel({
+          items: 4,
+          pagination: false,
+          dots: true,
+          stagePadding: 55,
+          margin: 15,
+        });
+
+        var owl = $("#owl-woman");
+
+        // Go to the next item
+        $(".womanNextBtn").click(function () {
+          owl.trigger("next.owl.carousel");
+        });
+        // Go to the previous item
+        $(".womanPrevBtn").click(function () {
+          // With optional speed parameter
+          // Parameters has to be in square bracket '[]'
+          owl.trigger("prev.owl.carousel", [300]);
+        });
+      });
+
+      $(window).on("load", function () {
+        $("#owl-cartviews").owlCarousel({
+          items: 6,
+          pagination: false,
+          dots: true,
+          margin: 6,
+          loop: true,
+          autoplay: true,
+          stagePadding: 55,
+        });
+
+        var owl = $("#owl-cartviews");
+
+        // Go to the next item
+        $(".cartNextBtn").click(function () {
+          owl.trigger("next.owl.carousel");
+        });
+        // Go to the previous item
+        $(".cartPrevBtn").click(function () {
+          // With optional speed parameter
+          // Parameters has to be in square bracket '[]'
+          owl.trigger("prev.owl.carousel", [300]);
+        });
+      });
+    </script>
+  </body>
+</html>

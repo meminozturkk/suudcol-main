@@ -1,0 +1,21 @@
+[  {
+  "id": 1,
+  "productName": "ürün 1",
+  "originalPrice": "100",
+  "discountedPrice": "90",
+  "url":"https://farktorcdn.com/Library/Upl/5500181/Product/780x1170/SUUD_2309_1485.jpg"
+},
+{
+  "id": 2,
+  "productName": "ürün 2",
+  "originalPrice": "200",
+  "discountedPrice": "180",
+  "url":"https://farktorcdn.com/Library/Upl/5500181/Product/780x1170/suud_02-070506.jpg"
+},
+{
+  "id": 3,
+  "productName": "ürün 2",
+  "originalPrice": "200",
+  "discountedPrice": "180"  ,
+  "url":"https://farktorcdn.com/Library/Upl/5500181/Product/780x1170/418132015-1003-4.jpg"
+}]
