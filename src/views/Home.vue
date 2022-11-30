@@ -23,6 +23,8 @@ import ProductCollection from "../components/ProductCollection.vue";
 import SiteFooter from "../components/SiteFooter.vue";
 import RoundCategories from '../components/RoundCategories.vue';
 import SuudWoman from '../components/SuudWoman.vue';
+import OtherProducts from '../components/OtherProducts.vue';
+import LastViews from '../components/LastViews.vue';
 
 export default {
   name: "Home",
@@ -35,7 +37,9 @@ export default {
     SiteFooter,
     RoundCategories,
     SuudWoman,
-   
+    OtherProducts,
+    LastViews,
+
   },
 };
 </script>
