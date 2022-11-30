@@ -24,36 +24,26 @@
             <router-link to="/productList">KASIM İNDİRİMİ</router-link>
           </li>
         </ul>
+        
         <button @click="onClickBtn()">
-          <span id="searchIcon">
-            <img src="https://img.icons8.com/search" />
-          </span>
-          <!-- <span> Ürün veya koleksiyon ara </span> -->
+          <div id="searchIcon">
+            <img src="https://img.icons8.com/search"/>
+          </div>
         </button>
+       
+      
         <div id="navBarRightButtons">
           <ul id="navMenu">
-            <li id="flag-icon">
-              <a>
-                <img
-                  src="https://farktorcdn.com/Library/Upl/Icon/flag-icon/tr.svg"
-                />
-              </a>
-            </li>
 
-            <li id="flag">
-              <a>
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/175/175461.png"
-                />
-              </a>
-            </li>
 
             <li id="flag">
               <a id="registerBtn" @click="openRegister()">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/456/456283.png"
                 />
+               <p>Üye Girişi</p>
               </a>
+              
             </li>
 
             <li id="flag">
@@ -61,6 +51,7 @@
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png"
                 />
+                <p>Favorilerim</p>
               </a>
             </li>
 
@@ -69,8 +60,9 @@
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/102/102665.png"
                 />
+                <p>Sepetim</p>
               </a>
-              <p>(0)</p>
+              (0)
             </li>
           </ul>
         </div>
@@ -358,6 +350,7 @@ body {
   border-left-color: #d3d3d3;
   display: inline-flex;
   flex-direction: row;
+  text-align: center;
 }
 #navMenu img {
   width: 20px;
