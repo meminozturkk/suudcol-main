@@ -1,13 +1,12 @@
 <template>
   <div class="sub-cat-container">
     <div class="combines">
-      <img src="../assets/product-collection/ayin-favorileriopt.jpg" alt="" />
-      <!-- <video id="video" loop muted>
+      <video id="video" loop muted>
         <source src="../assets/product-collection/video.mp4" type="video/mp4" />
-      </video> -->
-      <!-- <button class="playBtn" @click="videoControl()"> -->
-        <!-- <i class="fa fa-play" aria-hidden="true"></i>
-      </button> -->
+      </video>
+      <button class="playBtn" @click="videoControl()">
+        <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
     </div>
     <div class="grid">
       <div class="row row1">
