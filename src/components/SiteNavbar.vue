@@ -1,6 +1,21 @@
 <template>
   <div id="body">
+ 
     <div id="normalBody">
+      <div id="topOfPage" >
+        <div style="margin-right: 35%"></div>
+        <div> <a id="topOfPagea" href="#">Kasım İndirimi Devam Ediyor</a></div>
+        <div style="margin-left: 30%;"> 
+          <a id="topOfPagea2" href="">
+            Sipariş Takip 
+          </a>
+          <a id="topOfPagea2" href="">
+            Türkçe - Try
+          </a>
+          
+        </div>
+      </div>
+
       <div id="navBar">
         <router-link to="/"> <img id="suudTitle" src="../assets/suudlogo.svg" /></router-link>
         
@@ -156,6 +171,29 @@ export default {
 </script>
 
 <style scoped>
+#topOfPagea2{
+  font-size: 12px;
+  color: #fff;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+#topOfPagea{
+  color: #fff;
+  text-align: center;
+  width: 850px;
+}
+#topOfPage{
+  display: flex;
+  background-color: #bb0b0e;
+  height: 30px;
+  top: 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
 * {
   font-family: "Quicksand", sans-serif;
 }
@@ -174,7 +212,7 @@ body {
 
   position: fixed;
   top: 0;  
-  height: 100px;
+  height: 75px;
   z-index: 100;
   /* min-height: 1500px; */
   padding-top: 20px;
@@ -184,7 +222,7 @@ body {
   background-color: #fff;
   margin: 10px;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 10px;
   margin-left: 0;
 }
 #searchModeBody {
@@ -234,7 +272,8 @@ body {
   margin-left: 35px;
   position: relative;
   cursor: pointer;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 #navBarButtonsUL {
   position: relative;
