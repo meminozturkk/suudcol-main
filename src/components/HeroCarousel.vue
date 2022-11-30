@@ -5,11 +5,11 @@
         <a href="#"
           ><img
             class="d-block w-100"
-            src="../assets/hero/hero1.jpg"
+            src="https://www.suudcollection.com/Uploads/EditorUploads/Banner1/desk-slider-tr-1.png"
             alt="First slide"
         /></a>
         <div class="carousel-caption d-none d-md-block">
-          <h2>YENİLER GELDİ!</h2>
+          <h2 style="margin-bottom:250px"></h2>
           <router-link to="/productList" class="kesfet" href="#"
             ><i class="fas fa-angle-left"></i> Şimdi Keşfet
             <i class="fas fa-angle-right"></i>
@@ -20,11 +20,11 @@
         <a href="#"
           ><img
             class="d-block w-100"
-            src="../assets/hero/hero2.jpg"
+            src="https://www.suudcollection.com/Uploads/EditorUploads/Banner1/winterwindopt..png"
             alt="Second slide"
         /></a>
         <div class="carousel-caption d-none d-md-block">
-          <h2>DAYS KOLEKSİYONU</h2>
+          <h2 style="margin-bottom:250px">KABAN</h2>
           <router-link to="/productList" class="kesfet" href="#"
             ><i class="fas fa-angle-left"></i> Koleksiyonu Keşfet
             <i class="fas fa-angle-right"></i>
@@ -35,11 +35,11 @@
         <a href="#"
           ><img
             class="d-block w-100"
-            src="../assets/hero/hero3.jpg"
+            src="https://www.suudcollection.com/Uploads/EditorUploads/Banner1/desk-slider-deri.jpg"
             alt="Third slide"
         /></a>
         <div class="carousel-caption d-none d-md-block">
-          <h2>CLUBS KOLEKSİYONU</h2>
+          <h2 style="margin-bottom:250px">DERİ KOLEKSİYONU</h2>
           <router-link to="/productList" class="kesfet" href="#"
             ><i class="fas fa-angle-left"></i> Koleksiyonu Keşfet
             <i class="fas fa-angle-right"></i>
@@ -50,18 +50,18 @@
         <a href="#"
           ><img
             class="d-block w-100"
-            src="../assets/hero/hero4.jpg"
+            src="https://www.suudcollection.com/Uploads/EditorUploads/Banner1/trenckot-desktop.png"
             alt="Third slide"
         /></a>
         <div class="carousel-caption d-none d-md-block">
-          <h2>COLORS KOLEKSİYONU</h2>
+          <h2 style="margin-bottom:250px">TRENÇKOT</h2>
           <router-link to="/productList" class="kesfet" href="#"
             ><i class="fas fa-angle-left"></i> Koleksiyonu Keşfet
             <i class="fas fa-angle-right"></i>
           </router-link>
         </div>
       </div>
-      <div class="">
+      <!-- <div class="">
         <a href="#"
           ><img
             class="d-block w-100"
@@ -75,7 +75,7 @@
             <i class="fas fa-angle-right"></i>
           </router-link>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!--     <a
@@ -113,16 +113,22 @@ export default {
 * {
   font-family: "Open Sans", sans-serif;
 }
+.hero-caro{
+  margin-top: auto;
+}
 .hero {
   width: 100%;
-  margin: 0 auto;
-  height: 800px !important;
+  margin-top:100px;
+  height: 600px !important;
 }
 .hero-slide {
   height: 400px;
 }
+.hero-slide img{
+  height: 300px;
+}
 .carousel-inner {
-  height: 800px !important;
+  height: 600px !important;
 }
 .carousel-indicators li {
   border-radius: 12px;
@@ -131,7 +137,7 @@ export default {
   background-color: #404040;
 }
 .carousel-caption {
-  margin-bottom: 450px;
+  margin-top: 450px;
   color: white;
   text-shadow: -3px -3px 5px rgb(63, 63, 63);
 }
@@ -144,7 +150,8 @@ export default {
   color: white;
 }
 .carousel-item img {
-  width: 100%;
+  width: 90%;
+  height: 600px;
 }
 .kesfet:hover {
   text-decoration: underline;

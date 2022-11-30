@@ -167,9 +167,9 @@ label:hover {
 }
 
 .modalbox {
-  margin-left: 400px;
+  margin-left: -200px;
   margin-top: 70px;
-  width: 440px;
+  width: 1800px;
   flex-direction: column;
   justify-items: center;
   align-items: center;
