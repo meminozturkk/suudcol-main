@@ -1,23 +1,24 @@
 <template>
   <div class="sub-cat-container">
     <div class="combines">
-      <video id="video" loop muted>
+      <img src="../assets/product-collection/ayin-favorileriopt.jpg" alt="" />
+      <!-- <video id="video" loop muted>
         <source src="../assets/product-collection/video.mp4" type="video/mp4" />
-      </video>
-      <button class="playBtn" @click="videoControl()">
-        <i class="fa fa-play" aria-hidden="true"></i>
-      </button>
+      </video> -->
+      <!-- <button class="playBtn" @click="videoControl()"> -->
+        <!-- <i class="fa fa-play" aria-hidden="true"></i>
+      </button> -->
     </div>
     <div class="grid">
       <div class="row row1">
         <div class="grid-item grid-1">
           <router-link to="/productList">
-            <img src="../assets/product-collection/kaban1.jpg" alt="" />
+            <img src="../assets/product-collection/kaban-banner-kasimopt.jpg" alt="" />
           </router-link>
         </div>
         <div class="grid-item grid-3">
           <router-link to="/productList">
-            <img src="../assets/product-collection/kaban2.jpg" alt="" />
+            <img src="../assets/product-collection/ceket-banner-kasimopt.jpg" alt="" />
           </router-link>
         </div>
       </div>
@@ -25,7 +26,7 @@
         <div class="grid-item grid-2">
           <router-link to="/productList">
             <img
-              src="../assets/product-collection/kesfet.png"
+              src="../assets/product-collection/canta-banner-kasimopt.jpg"
               alt=""
               srcset=""
             />
@@ -34,7 +35,7 @@
         </div>
         <div class="grid-item grid-4">
           <router-link to="/productList">
-            <img src="../assets/product-collection/kaban2.jpg" alt="" />
+            <img src="../assets/product-collection/ayin-favorileriopt.jpg" alt="" />
           </router-link>
         </div>
       </div>
