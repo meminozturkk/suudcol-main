@@ -1,11 +1,6 @@
 <template>
   <div class="container">
     <div class="heading">
-      <h1>ULAŞILABİLİR MODA SUUD COLLECTION'DA</h1>
-      <h4>
-        Ürünlerimizi atölyelerimizde üretip doğrudan sana ulaştırıyoruz.
-        Fiyatlar uygun çünkü seninle aramıza kimseyi sokmuyoruz.
-      </h4>
     </div>
     <div class="sub-categories">
       <div
