@@ -119,7 +119,7 @@ ol {
 }
 .roundNextBtn {
   position: relative;
-  right: -500px;
+  right: -800px;
   top: 300px;
 }
 .roundPrevBtn {

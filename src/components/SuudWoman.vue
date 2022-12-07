@@ -134,7 +134,7 @@ ol {
 }
 .womanNextBtn {
   position: relative;
-  right: -600px;
+  right: -850px;
   top: 250px;
 }
 .womanPrevBtn {

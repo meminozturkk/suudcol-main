@@ -1,9 +1,9 @@
 <template>
   <div class="other-products">
-    <div class="pagination-others">
+    <!-- <div class="pagination-others">
       <button class="customPrevBtn"><i class="fa fa-angle-left"></i></button>
       <button class="customNextBtn"><i class="fa fa-angle-right"></i></button>
-    </div>
+    </div> -->
     <div id="owl-others" class="owl-carousel owl-theme">
       <div>
         <img src="../assets/other-products/ekstra1.jpg" alt="" srcset="" />
